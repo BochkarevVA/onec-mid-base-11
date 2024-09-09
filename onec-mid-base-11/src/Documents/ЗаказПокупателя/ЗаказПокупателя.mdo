@@ -185,11 +185,48 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a5d2892-397c-4878-a95d-1c0e68c268ef">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <comment>Контактное лицо</comment>
+    <type>
+      <types>CatalogRef.ДЗ_КонтактныхЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5de880a5-850b-4b19-974d-7db2ec6ac7e6">
+    <name>СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидка</value>
+    </synonym>
+    <comment>Согласованная скидка</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
